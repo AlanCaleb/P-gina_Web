@@ -1,0 +1,38 @@
+.encabezado {
+    background-color: maroon;
+    color:aliceblue;
+    display:flex;
+    justify-content: space-around;
+}
+
+.menu {
+    color:aliceblue;
+    display:flex;
+    justify-content: space-around;
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-color:lightcyan;
+    
+}
+
+.juegos:hover img {
+    opacity: 0.33;
+    cursor: progress;
+    writing-mode: vertical-lr;
+    position: relative;
+    inset: 20px 50px 30px 10px;
+    background-color: #c8c800;
+
+}
